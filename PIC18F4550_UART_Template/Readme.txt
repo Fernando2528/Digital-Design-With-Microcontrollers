@@ -1,1 +1,3 @@
+This project provides a reusable assembly language template for UART communication on the PIC18F4550 microcontroller. It includes essential configuration routines for baud rate setup, transmit/receive buffers, interrupt handling, and basic packet framing, serving as a foundation for serial communication projects.
 
+This template accelerates development for applications requiring reliable serial interfaces, such as data logging systems, remote sensor communication, PC-to-microcontroller interfaces, wireless module bridges (like Bluetooth or Zigbee), and multi-device networks where standardized UART handling is needed.
