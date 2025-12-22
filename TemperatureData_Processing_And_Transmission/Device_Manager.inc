@@ -1,0 +1,47 @@
+
+    
+;============================================================
+; CONFIGURACIÓN DEL PIC18F4550
+;============================================================
+
+    CONFIG  PLLDIV = 1
+    CONFIG  CPUDIV = OSC1_PLL2
+    CONFIG  USBDIV = 1
+    CONFIG  FOSC = INTOSCIO_EC
+    CONFIG  FCMEN = OFF
+    CONFIG  IESO = OFF
+    CONFIG  PWRT = ON
+    CONFIG  BOR = ON
+    CONFIG  BORV = 3
+    CONFIG  VREGEN = OFF
+    CONFIG  WDT = OFF
+    CONFIG  WDTPS = 32768
+    CONFIG  CCP2MX = ON
+    CONFIG  PBADEN = OFF
+    CONFIG  LPT1OSC = OFF
+    CONFIG  MCLRE = ON
+    CONFIG  STVREN = ON
+    CONFIG  LVP = ON
+    CONFIG  ICPRT = OFF
+    CONFIG  XINST = OFF
+    CONFIG  CP0 = OFF
+    CONFIG  CP1 = OFF
+    CONFIG  CP2 = OFF
+    CONFIG  CP3 = OFF
+    CONFIG  CPB = OFF
+    CONFIG  CPD = OFF
+    CONFIG  WRT0 = OFF
+    CONFIG  WRT1 = OFF
+    CONFIG  WRT2 = OFF
+    CONFIG  WRT3 = OFF
+    CONFIG  WRTC = OFF
+    CONFIG  WRTB = OFF
+    CONFIG  WRTD = OFF
+    CONFIG  EBTR0 = OFF
+    CONFIG  EBTR1 = OFF
+    CONFIG  EBTR2 = OFF
+    CONFIG  EBTR3 = OFF
+    CONFIG  EBTRB = OFF
+
+
+
