@@ -1,1 +1,3 @@
+This project, developed entirely in assembly language for the PIC18F4550 microcontroller, receives input data, validates it, reads temperature values from a sensor, integrates the information, generates an output checksum, and transmits the complete data packet. 
 
+The implementation demonstrates efficient resource management on the PIC18F4550, including data integrity verification, sensor interfacing, and reliable communication protocols. This architecture is foundational for telemetry systems, environmental monitoring stations, industrial data loggers, and IoT sensor nodes requiring robust data handling.
