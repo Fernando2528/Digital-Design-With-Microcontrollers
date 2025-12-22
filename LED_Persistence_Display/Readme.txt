@@ -1,1 +1,3 @@
+This project demonstrates the use of LED visual persistence—an optical effect that allows light patterns to appear continuous or floating in the air when LEDs move rapidly. The system displays numerical data, such as a student code, by controlling a sequence of LEDs that turn on and off in precise timing patterns. 
 
+Beyond this demonstration, the same principle can be applied in various contexts, such as dynamic light art installations, motion-based advertising displays, visual effects in wearable technology, or low-cost message visualization systems for educational or entertainment purposes.
