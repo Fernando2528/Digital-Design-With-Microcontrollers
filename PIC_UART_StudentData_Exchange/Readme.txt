@@ -1,1 +1,3 @@
+This project implements UART communication between two PIC microcontrollers (PIC16F88 and PIC16F887), both programmed in assembly language. Each PIC stores unique student information (full name and student ID), receives data blocks from the other PIC, appends its own information, and forwards the combined packet. 
 
+The system demonstrates reliable point-to-point communication protocols, data packet assembly, and memory-efficient string handling on resource-constrained devices. This architecture is applicable to multi-node sensor networks, distributed data collection systems, personnel tracking devices, and basic IoT gateways requiring student or user identification exchange.
