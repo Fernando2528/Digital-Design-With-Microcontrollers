@@ -1,1 +1,3 @@
+This project features a PIC18F4550 and ATmega328P microcontroller pair that communicate via UART. Each performs an ADC measurement from a voltage divider, adjusts its PWM signal to control an LED based on the reading, and appends its results into a combined data block exchanged between the devices.
 
+This dual-processor architecture with UART synchronization demonstrates distributed analog processing and data aggregation. It's applicable to multi-sensor lighting systems, coordinated motor control networks, environmental monitoring stations with shared data logging, or redundant control systems requiring synchronized analog feedback.
