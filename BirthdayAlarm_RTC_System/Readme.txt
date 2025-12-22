@@ -1,1 +1,3 @@
+This project implements a Birthday Alarm System for ATmega328P (Arduino Uno/Nano) using avr-gcc compiler. It features a real-time clock (DS1307 RTC via I2C), buzzer melody output on PD2, and UART serial menu interface. The system continuously monitors the current date against a stored birthday in EEPROM, automatically calculates age, and plays the "Happy Birthday" melody exactly on the birth date.
 
+This design combines RTC timekeeping, persistent data storage, and audio generation for event-based systems. Applications include personalized reminder devices, event notification systems, holiday alert modules, medication schedulers, or any embedded system requiring date-specific audio/visual alerts with user-configurable timing.
