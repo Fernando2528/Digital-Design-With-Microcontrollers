@@ -1,0 +1,8 @@
+
+    
+;--- Bits de configuración ---
+    __CONFIG _CONFIG1, _FOSC_INTRC_NOCLKOUT & _WDTE_OFF & _PWRTE_ON & _MCLRE_ON & _CP_OFF & _CPD_OFF & _BOREN_OFF & _IESO_OFF & _FCMEN_OFF & _LVP_OFF
+    __CONFIG _CONFIG2, _BOR4V_BOR40V & _WRT_OFF
+
+
+
