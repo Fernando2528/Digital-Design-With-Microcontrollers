@@ -1,0 +1,3 @@
+;--- Bits de configuración ---
+    __CONFIG _CONFIG1, _CP_OFF & _CCP1_RB0 & _DEBUG_OFF & _WRT_PROTECT_OFF & _CPD_OFF & _LVP_OFF & _BODEN_OFF & _MCLR_ON & _PWRTE_ON & _WDT_OFF & _INTRC_IO
+    __CONFIG _CONFIG2, _IESO_OFF & _FCMEN_OFF
