@@ -1,1 +1,3 @@
+This project expands the previous ring network to support additional external microcontroller blocks beyond the original three (ATmega328P, PIC18F4550, PIC16F628A). It enhances data packet framing to accommodate variable-length blocks from heterogeneous processors, maintaining UART communication, sensor data appending, RTC time integration, hash/checksum validation, and LED acknowledgment signaling.
 
+The scalable design enables dynamic network expansion for larger deployments. Applications include enterprise sensor networks, distributed industrial monitoring, modular IoT constellations, fault-tolerant data pipelines, and extensible embedded systems where new sensor/processor nodes can join without redesigning the core protocol.
