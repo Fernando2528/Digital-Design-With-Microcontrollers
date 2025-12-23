@@ -1,3 +1,5 @@
 This project coordinates three microcontrollers (ATmega328P, PIC18F4550, PIC16F628A) in a ring communication network via UART. The ATmega328P (AVR) and PIC18F4550 (XC8) receive input data, append their respective sensor readings—the 328P also reads time from DS1307 RTC (which the PIC18F modifies)—generate output hash with checksum validation, and forward the packet. The PIC16F628A (assembly) simply toggles an LED on each data frame reception.
 
+**Alternative test mode:** Includes Bluetooth connectivity via ESP32 for wireless testing and external device integration, enabling remote monitoring and data injection into the ring network.
+
 This ring topology demonstrates distributed sensor fusion, time synchronization, data integrity verification, and multi-language/multi-platform integration. Applications include industrial sensor networks, distributed monitoring systems, fault-tolerant data acquisition chains, and scalable IoT node clusters with validation and acknowledgment mechanisms.
